@@ -12,7 +12,7 @@ namespace Fiap.Web.SmartWasteManagement.Models
         public int CodigoMorador { get; set; }
         public MoradorModel Morador { get; set; }
 
-        List<NotificacaoModel> Notificacoes { get; set; }
+        public List<NotificacaoModel> Notificacoes { get; set; }
         public List<AgendamentoColetaModel> Agendamentos { get; set; }
     }
 }

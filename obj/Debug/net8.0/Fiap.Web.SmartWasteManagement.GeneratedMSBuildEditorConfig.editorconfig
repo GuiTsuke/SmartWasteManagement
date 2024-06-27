@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Fiap.Web.SmartWasteManagement
 build_property.RootNamespace = Fiap.Web.SmartWasteManagement
@@ -18,6 +26,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\src\Fiap\2Ano_Fase4\Fiap.Web.SmartWasteManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/AgendamentoColeta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9Db2xldGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/AgendamentoColeta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9Db2xldGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/AgendamentoColeta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9Db2xldGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/AgendamentoColeta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9Db2xldGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/AgendamentoColeta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbmRhbWVudG9Db2xldGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Caminhao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaW5oYW9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Caminhao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaW5oYW9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Caminhao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaW5oYW9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Caminhao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaW5oYW9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Caminhao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaW5oYW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +72,86 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Morador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Morador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Morador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Morador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Morador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9yYWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Notificacao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjYW9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Notificacao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjYW9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Notificacao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjYW9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Notificacao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjYW9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Notificacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjYW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Recipiente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Recipiente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Recipiente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Recipiente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Recipiente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Rota/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Rota/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Rota/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Rota/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Rota/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/src/Fiap/2Ano_Fase4/Fiap.Web.SmartWasteManagement/Views/Shared/Error.cshtml]

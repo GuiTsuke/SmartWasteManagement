@@ -1,0 +1,55 @@
+@using Fiap.Web.SmartWasteManagement.Models.Enums
+@model Fiap.Web.SmartWasteManagement.ViewModels.RecipienteViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>RecipienteModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Codigo" />
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoResiduo" class="control-label"></label>
+                <select asp-for="TipoResiduo" class="form-control" asp-items="Html.GetEnumSelectList<TipoResiduo>()"></select>
+                <span asp-validation-for="TipoResiduo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CapacidadeTotal" class="control-label"></label>
+                <input asp-for="CapacidadeTotal" class="form-control" />
+                <span asp-validation-for="CapacidadeTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NivelOcupacaoAtual" class="control-label"></label>
+                <input asp-for="NivelOcupacaoAtual" class="form-control" />
+                <span asp-validation-for="NivelOcupacaoAtual" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoMorador" class="control-label"></label>
+                <select asp-for="CodigoMorador" class="form-control" asp-items="ViewBag.CodigoMorador"></select>
+                <span asp-validation-for="CodigoMorador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

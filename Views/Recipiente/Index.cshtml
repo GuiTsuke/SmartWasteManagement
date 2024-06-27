@@ -1,0 +1,59 @@
+@model IEnumerable<Fiap.Web.SmartWasteManagement.ViewModels.RecipienteViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Recipientes</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoResiduo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CapacidadeTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NivelOcupacaoAtual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoMorador)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoResiduo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CapacidadeTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NivelOcupacaoAtual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoMorador)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Codigo">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Codigo">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Codigo">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

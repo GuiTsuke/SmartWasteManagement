@@ -1,0 +1,55 @@
+@using Fiap.Web.SmartWasteManagement.Models.Enums
+@model Fiap.Web.SmartWasteManagement.ViewModels.NotificacaoViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>NotificacaoModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Codigo" />
+            <div class="form-group">
+                <label asp-for="DataEnvio" class="control-label"></label>
+                <input asp-for="DataEnvio" class="form-control" />
+                <span asp-validation-for="DataEnvio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <select asp-for="Tipo" class="form-control" asp-items="Html.GetEnumSelectList<NotificacaoStatus>()"></select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Leitura" class="control-label"></label>
+                <select asp-for="Leitura" class="form-control" asp-items="Html.GetEnumSelectList<LeituraStatus>()"></select>
+                <span asp-validation-for="Leitura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoMorador" class="control-label"></label>
+                <select asp-for="CodigoMorador" class="form-control" asp-items="ViewBag.CodigoMorador"></select>
+                <span asp-validation-for="CodigoMorador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoRecipiente" class="control-label"></label>
+                <select asp-for="CodigoRecipiente" class="form-control" asp-items="ViewBag.CodigoRecipiente"></select>
+                <span asp-validation-for="CodigoRecipiente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
